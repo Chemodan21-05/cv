@@ -33,7 +33,7 @@ a:hover{
   border-radius: 200px;
 }
 .midpanel{
-  position: absolute;
+  position: left;
   width: 60%;
   top: 0%;
   min-width: 700px;
