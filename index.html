@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html>
+	 <script>
+    // Отримання елементу, який відображатиме дату
+    const currentDateElement = document.getElementById('currentDate');
+
+    // Отримання поточної дати
+    const currentDate = new Date();
+
+    // Форматування дати у зручний для відображення вигляд
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const formattedDate = currentDate.toLocaleDateString('en-US', options);
+
+    // Відображення отриманої дати на сторінці
+    currentDateElement.textContent = `Поточна дата: ${formattedDate}`;
+  </script>
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -168,6 +182,8 @@
 			<header>
         		<h1>Клименко Михайло</h1>
         		<p>Курсант 2 курсу</p>
+				  <h1 id="currentDate"></h1>
+
 						
       		</header>
       		<ul class="nav">
