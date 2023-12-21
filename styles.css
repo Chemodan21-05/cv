@@ -25,6 +25,7 @@ a:hover{
   top: 0%;
   float: right;
   background-color: #024141;
+  margin-left: auto; 
 }
 .photo{
   margin-top: 25px;
