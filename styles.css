@@ -33,9 +33,10 @@ a:hover{
   border-radius: 200px;
 }
 .midpanel{
-  position: left;
+  position: absolut;
   width: 60%;
   top: 0%;
+  float: right;
   min-width: 700px;
   min-height: 1080px;
   margin-left: 445px;
